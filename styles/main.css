@@ -1,0 +1,59 @@
+
+	
+/* H1 tags Font-Style and size*/
+*{ margin: 0; padding:0;}
+
+h1{
+		font-family: normal, century gothic, sans-serif;
+		font-size: 160%;
+	}
+h2{
+		padding: 1em;
+		font-family: normal, century gothic, sans-serif;
+		font-size: 100%;
+		
+	}
+
+body{
+	padding-top: 20px;
+	background-color: rgb(235,233,228);
+	width: 962px;
+	background-size: 100%;
+	background-attachment: none; /*keep image from scrolling*/
+	margin: 15px auto;
+	border: 1px solid gray;	
+	text-align: center;
+	font-size: 140%;
+	padding: 50px;
+	
+}
+header{
+	border-bottom: 2px solid gray;
+	text-align: center;
+	
+}
+main{
+	height:350px;
+	width:400px;
+	float:left;
+	border-right: 2px solid gray;
+}
+aside{
+	
+	width: 560px;
+	float: right;
+}
+footer{
+	clear: both;
+	border-top: 2px solid gray;
+}
+img{
+	float:left;
+	
+}
+#mailbox p{
+	float: left;
+	padding-left:150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
